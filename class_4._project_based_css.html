@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 4 Basic element</title>
+
+    <!-- google fonts from external -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- custom css / style -->
+    <style>
+        *{
+            margin: 0;
+           
+        }
+        .hero_home{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background: linear-gradient(rgba(37, 35, 37, 0.5),rgba(17, 16, 17, 0.5)), url('https://quantumforte.com/static/img/hero_image.jpg') ;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .container{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        .sub_heading{
+            color: white;
+            font-size: 18px;
+
+        }
+        .hero_heading{
+            color: white;
+            font-size: 45px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-family: 'Roboto', sans-serif;
+        }
+        .text_hero{
+            color: white;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 24px;
+            
+        }
+
+        .btn{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 30px;
+            padding-left: 30px;
+            background: #0B5ED7;
+            color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 35px;
+        }
+        .btn:hover{
+            background: #ff35b1;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- creation our hero section -->
+    <section class="hero_home">
+        <div style="text-align: center;" class="container">
+            <h5 class="sub_heading">A home for developers & programmers</h5>
+            <h1 class="hero_heading"> Shourov, Welcome to Quantum Forte </h1>
+            <p class="text_hero">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi perspiciatis velit pariatur sint voluptatibus. Blanditiis quasi, corrupti rerum doloribus laborum tempore voluptate? Consectetur dolorem modi fuga voluptate aperiam incidunt magnam?
+            </p>
+            <div style="padding: 10px 0;" >
+                <button class="btn">
+                    View Courses
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
