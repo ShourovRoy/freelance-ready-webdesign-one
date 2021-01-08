@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox project</title>
+    <style>
+        .container{
+            width: 98%;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+        }
+        .col{
+            margin-right: 20px;
+        }
+        .course_img{
+            height: 100%;
+            width: 100%;
+        }
+        .card{
+            width: 100%;
+            margin: auto;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        }
+        .course_header{
+            padding: 10px 20px;
+            background: #F7F7F7;
+        }
+        .card_body {
+            padding: 15px 20px;
+            border-top: 1px #000 solid;
+            border-bottom: 1px #000 solid;
+        }
+        .card_footer{
+            padding: 10px 20px;
+            background: #F7F7F7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card_btn{
+            width: 100%;
+            background: #0B5ED7;
+            color: white;
+            padding: 8px 0;
+            border: none;
+            outline: none;
+        }
+        .card_btn:hover{
+            background: #0bd72d;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <!-- free course heading -->
+            <div style="padding: 10px 0;" >
+                <h1 style="font-size: 35px;">Free Courses <span style="font-size: 20px; color: #0B5ED7;"><sup>Latest uploads</sup></span></h1>
+            </div>
+
+            <!-- course cards -->
+            <div class="row">
+
+                <!-- col one -->
+                <div class="col">
+                    <!-- card one -->
+                    <div class="card">
+                        <img src="https://quantumforte.com/media/images/2020/12/Brakets.jpg" class="course_img" alt="course thumbnail" />
+                        <div class="course_header">
+                            <p>Brackets Text Editor</p>
+                        </div>
+                        <div class="card_body">
+                            <p>
+                                Brackets is a lightweight, yet powerful, modern text editor. We blend visual tools into the edito
+                            </p>
+                        </div>
+                        <div class="card_footer">
+                            <div>
+                                <p>Duration: 7 mins</p>
+                            </div>
+                            <div>
+                                <p>Free Resource</p>
+                            </div>
+                        </div>
+                        <a target="_blank" href="https://quantumforte.com/courses/4">
+                            <button class="card_btn">
+                                Watch Now
+                            </button>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <!-- card two -->
+                <div class="col">
+                    <!-- card two -->
+                    <div class="card">
+                        <img src="https://quantumforte.com/media/images/2020/12/Brakets.jpg" class="course_img" alt="course thumbnail" />
+                        <div class="course_header">
+                            <p>Brackets Text Editor</p>
+                        </div>
+                        <div class="card_body">
+                            <p>
+                                Brackets is a lightweight, yet powerful, modern text editor. We blend visual tools into the edito
+                            </p>
+                        </div>
+                        <div class="card_footer">
+                            <div>
+                                <p>Duration: 7 mins</p>
+                            </div>
+                            <div>
+                                <p>Free Resource</p>
+                            </div>
+                        </div>
+                        <a target="_blank" href="https://quantumforte.com/courses/4">
+                            <button class="card_btn">
+                                Watch Now
+                            </button>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <!-- card three -->
+                <div class="col">
+                    <!-- card three -->
+                    <div class="card">
+                        <img src="https://quantumforte.com/media/images/2020/12/Brakets.jpg" class="course_img" alt="course thumbnail" />
+                        <div class="course_header">
+                            <p>Brackets Text Editor</p>
+                        </div>
+                        <div class="card_body">
+                            <p>
+                                Brackets is a lightweight, yet powerful, modern text editor. We blend visual tools into the edito
+                            </p>
+                        </div>
+                        <div class="card_footer">
+                            <div>
+                                <p>Duration: 7 mins</p>
+                            </div>
+                            <div>
+                                <p>Free Resource</p>
+                            </div>
+                        </div>
+                        <a target="_blank" href="https://quantumforte.com/courses/4">
+                            <button class="card_btn">
+                                Watch Now
+                            </button>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <!-- card Four -->
+                <div class="col">
+                    <!-- card Four -->
+                    <div class="card">
+                        <img src="https://quantumforte.com/media/images/2020/12/Brakets.jpg" class="course_img" alt="course thumbnail" />
+                        <div class="course_header">
+                            <p>Brackets Text Editor</p>
+                        </div>
+                        <div class="card_body">
+                            <p>
+                                Brackets is a lightweight, yet powerful, modern text editor. We blend visual tools into the edito
+                            </p>
+                        </div>
+                        <div class="card_footer">
+                            <div>
+                                <p>Duration: 7 mins</p>
+                            </div>
+                            <div>
+                                <p>Free Resource</p>
+                            </div>
+                        </div>
+                        <a target="_blank" href="https://quantumforte.com/courses/4">
+                            <button class="card_btn">
+                                Watch Now
+                            </button>
+                        </a>
+                        
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+</body>
+</html>
