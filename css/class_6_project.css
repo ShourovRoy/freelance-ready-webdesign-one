@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.hero_section{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://quantumforte.com/static/img/course_details_bg.jpg');
+    padding: 100px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.hero_ph{
+    width: 96%;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.primary{
+    color: #ff8030;
+
+}
+
+.col > h4{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size:18px;
+}
+
+.col > h1{
+    color: white;
+    padding: 10px 0 ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+.col > iframe {
+    height: 300px;
+    width: 470px;
+}
+
+.last_sec{
+    padding:  50px 0;
+
+}
+
+/* responsive design */
+
+@media screen and  (max-width: 1059px){
+    .row{
+        flex-direction: column;
+    }
+
+    h1, h4, p{
+        text-align: center;
+    }
+
+    .col > iframe {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .col > iframe {
+        height: 400px;
+        width: 300px;
+    }
+}
+
+

@@ -1,0 +1,12 @@
+.heading_one{
+    color: red;
+    background: #000;
+}
+
+
+@media screen and (min-width: 600px) {
+    .heading_one{
+        color: green;
+        background: red;
+    }
+}
