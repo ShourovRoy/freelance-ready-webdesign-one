@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body{
+    background: #181818;
+}
+
+.main_header{
+    background: #000000;
+    padding: 10px 0;
+}
+
+.nav_container{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    width: 89%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo_one{
+    width: 113px;
+}
+.logo_two{
+    width: 70px;
+    height: 80px;
+}
+
+.header_text{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_row > div {
+    padding: 0 10px;
+}
+
+.btn_one{
+    padding: 9px 20px;
+    background: rgb(212, 12, 12);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.btn_one:hover{
+    background: rgb(236, 25, 25);
+    border-radius: 2px;
+}
+
+.btn_two{
+    padding: 9px 20px;
+    background: transparent;
+    color: white;
+    border: 0.9px solid #eee;
+    outline: none;
+    border-radius: 2px;
+}
+
+.btn_two:hover{
+    background: rgba(255, 255, 255, 0.301);
+    border-radius: 2px;
+}
+
+/* responsive header */
+@media screen and (max-width: 1023px){
+    .header_text{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 597px){
+    .logo_one{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 598px){
+    .logo_two{
+        display: none;
+    }
+}
+
+/* hero section style */
+
+.hero{
+    background: linear-gradient(90deg, #181818 ,rgba(8, 243, 126, 0)),url('../assets/hero_img.jpg');
+    padding: 130px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bradcamps{
+    border-left: 0.9px solid #a3a3a3;
+    padding: 0 10px !important;
+}
+
+.sqr{
+    border: 0.9px solid #a3a3a3;
+    padding: 2px 5px;
+}
+
+.row_hero_section{
+    padding:20px 0;
+}
+
+.film_desc{
+    margin-top: 5px;
+    font-size: 14.6px;
+    width: 40%;
+}
+
+.starring{
+    color: #a3a3a3;
+}
+
+.shadow_warn{
+    padding: 3px 10px;
+    background: #2C2C2C;
+    margin-top: -30px;
+    box-shadow: 8px 5px 16px 0 rgba(0,0,0,.37);
+}
+
+.sub_heading_container{
+    padding: 80px 0;
+}
+
+.extraction_movie_detail{
+    padding: 60px 0;
+}
+
+.grid_container{
+    padding-top: 25px;
+}
+
+.more_originals{
+    padding: 100px 0;
+}
+
+.grid_container_movies{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 13px;
+    row-gap: 13px;
+}
+
+.original_imgs{
+    width: 400px;
+    height: auto;
+}
+
+.info_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 13px;
+}
+.info_grid_item{
+    color: white;
+}
+
+.info_grid_item > div > p {
+    font-size: 14.6px;
+    padding: 7px 0;
+    margin-top: 5px;
+}
+
+.info_grid_item > div > h4 {
+    padding-top: 5px;
+    margin-top: 2px;
+}
